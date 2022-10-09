@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="border: 3px solid black; width: 65%">
+        <form action="" method="post" style="padding: 0 15px 15px 15px;" >
+            <h1>Interest Survey Form</h1>
+            
+            <table>
+                <tr>
+                    <td><label for="name">Enter your name: </label></td>
+                    <td><input type="text" name="name" id="name" /></td>
+                </tr>
+                
+                <tr>
+                    <td><label for="department">Enter your department: </label></td>
+                    <td><input type="text" name="department" id="department" /></td>
+                </tr>
+                
+                <tr>
+                    <td><label for="about">Tell us a little about yourself: </label></td>
+                    <td><textarea name="about" id="" cols="30" rows="5"></textarea></td>
+                </tr>
+            
+                <tr>
+                    <td><p style="display: inline-block;">Do you exercise at home?</p></td>
+                    <td>
+                        <input type="radio" name="exercise" id="yes">
+                        <label for="yes">Yes</label>
+                        <input type="radio" name="exercise" id="no">
+                        <label for="no">No</label>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td><p>How do you like to read <br>about your favorite topics?</p></td>
+                    <td>
+                        <input type="checkbox" name="info" id="books">
+                        <label for="books">Books</label>
+                        <input type="checkbox" name="info" id="online">
+                        <label for="online">Online</label>
+                        <input type="checkbox" name="info" id="apps">
+                        <label for="apps">Phone apps</label>
+                        <input type="checkbox" name="info" id="magazines">
+                        <label for="magazines">Magazines</label>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td><label for="genre">What genre of movies do you like?</label></td>
+                    <td>
+                        <select name="genre" id="comedy">
+                            <option value="comedy">Comedy</option>
+                            <option value="horror">Horror</option>
+                        </select>
+                    </td>
+                </tr>
+            </table><br>
+
+            <input type="submit" value="Submit form">
+        </form>
+    </div>
+</body>
+</html>
